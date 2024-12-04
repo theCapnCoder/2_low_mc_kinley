@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .title-primary {
+    @apply font-dm-serif text-6xl leading-tight text-blue-dark;
+  }
+
+  .text-body {
+    @apply text-2xl leading-relaxed text-blue-dark
+  }
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
