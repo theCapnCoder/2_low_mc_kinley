@@ -1,6 +1,19 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import { DM_Sans, DM_Serif_Text } from "next/font/google";
 import "./globals.css";
+
+const dmSans = DM_Sans({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-dm-sans",
+});
+
+const dmSerif = DM_Serif_Text({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-dm-serif",
+});
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -26,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${dmSans.variable} ${dmSerif.variable} antialiased`}
       >
         {children}
       </body>
