@@ -7,6 +7,10 @@
     @apply font-dm-serif text-6xl leading-tight text-blue-dark;
   }
 
+  .title-secondary {
+    @apply font-dm-serif text-5xl leading-tight text-blue-dark;
+  }
+
   .text-body {
     @apply text-2xl leading-relaxed text-blue-dark
   }

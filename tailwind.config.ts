@@ -25,6 +25,9 @@ export default {
         "blue-medium": "#4D7F99",
         "blue-deep": "#002B41",
       },
+      boxShadow: {
+        custom: "0 24px 24px 0 rgba(0, 72, 109, 0.2)",
+      },
     },
   },
   plugins: [],

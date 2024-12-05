@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "svgr": "svgr --no-runtime-config --typescript --out-dir src/assets/svg -- public/svg"
   },
   "dependencies": {
     "clsx": "^2.1.1",
@@ -16,6 +17,7 @@
     "react-dom": "19.0.0-rc-66855b96-20241106"
   },
   "devDependencies": {
+    "@svgr/cli": "^8.1.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
