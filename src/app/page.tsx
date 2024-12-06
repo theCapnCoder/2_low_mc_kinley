@@ -3,6 +3,7 @@ import { Carusel } from "./_containers/carusel";
 import { Header } from "./_containers/header";
 import { Main } from "./_containers/main";
 import { Personalize } from "./_containers/personalize";
+import { Recent } from "./_containers/recent";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Areas />
       <Personalize />
       <Carusel />
+      <Recent />
     </div>
   );
 }
