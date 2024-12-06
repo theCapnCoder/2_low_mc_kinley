@@ -1,5 +1,6 @@
 import { Areas } from "./_containers/areas";
 import { Carusel } from "./_containers/carusel";
+import { Footer } from "./_containers/footer";
 import { Header } from "./_containers/header";
 import { Main } from "./_containers/main";
 import { Personalize } from "./_containers/personalize";
@@ -16,6 +17,7 @@ export default function Home() {
       <Carusel />
       <Recent />
       <Question />
+      <Footer />
     </div>
   );
 }
